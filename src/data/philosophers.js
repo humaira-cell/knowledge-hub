@@ -173,5 +173,3 @@ export const getPhilosopherBySlug = (slug) =>
   philosophers.find(p => p.slug === slug)
 
 export const getAllPhilosophers = () => philosophers
-
-export { books, getBookBySlug, getBooksByAuthor, getAllBooks } from './localBooks'

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-sand text-ink font-body;
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+}
+
+.marble-bg {
+  background: linear-gradient(135deg, #fdfbf7 0%, #f5f0e8 50%, #f0ebe3 100%);
+}
+
+.manuscript-border {
+  border: 2px solid #D4AF37;
+  border-radius: 4px;
+  position: relative;
+}
+
+.manuscript-border::before,
+.manuscript-border::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: #D4AF37;
+  border-style: solid;
+}
+
+.manuscript-border::before {
+  top: -2px;
+  left: -2px;
+  border-width: 3px 0 0 3px;
+}
+
+.manuscript-border::after {
+  bottom: -2px;
+  right: -2px;
+  border-width: 0 3px 3px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.horseshoe-arch {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 85% 100%, 70% 92%, 50% 100%, 30% 92%, 15% 100%, 0 85%);
+}

@@ -8,6 +8,15 @@ export default function BookCard({ book }) {
 
   return (
     <div className="marble-bg border border-gold/30 rounded-lg overflow-hidden gold-glow transition-all duration-300 hover:border-gold/70 hover:shadow-lg flex flex-col">
+      {book.coverUrl && (
+        <div className="h-40 overflow-hidden bg-gradient-to-br from-aegean/10 to-aegean/30 flex items-center justify-center">
+          <img
+            src={book.coverUrl}
+            alt={book.title}
+            className="w-full h-full object-cover opacity-85 hover:opacity-100 transition-opacity duration-300"
+          />
+        </div>
+      )}
       <div className="p-5 flex-1 flex flex-col">
         <div className="flex items-start justify-between gap-3 mb-2">
           <h3 className="font-heading text-aegean text-base tracking-wide leading-tight flex-1">

@@ -8,6 +8,8 @@ export const philosophers = [
     slug: 'plato',
     bio: 'Plato was the foundational philosopher of Western thought, a student of Socrates and teacher of Aristotle. He founded the Academy in Athens, the first institution of higher learning in the Western world. His dialogues explore justice, truth, love, knowledge, and the nature of reality through the theory of Forms — the idea that the material world is a shadow of a higher, eternal reality.',
     portraitBg: 'from-indigo-900 via-aegean to-blue-900',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/320px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    theme: 'greek',
     quoteCount: 8,
     bookCount: 7,
     quotes: [
@@ -62,6 +64,8 @@ export const philosophers = [
     slug: 'aristotle',
     bio: 'Aristotle was a Greek philosopher and polymath, a student of Plato and tutor to Alexander the Great. He founded the Lyceum and wrote on virtually every subject — metaphysics, ethics, politics, poetics, biology, and physics. His philosophy of substance, causation, and actuality shaped the intellectual tradition of both the Islamic and Christian worlds for over a millennium.',
     portraitBg: 'from-amber-900 via-terracotta to-aegean',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/320px-Aristotle_Altemps_Inv8575.jpg',
+    theme: 'greek',
     quoteCount: 8,
     bookCount: 7,
     quotes: [
@@ -116,6 +120,8 @@ export const philosophers = [
     slug: 'guenon',
     bio: 'René Guénon was a French metaphysician and founder of the Traditionalist or Perennialist school. He devoted his life to elucidating the universal principles underlying the world\'s great spiritual traditions — Hinduism, Sufism, Taoism, and Christian esotericism. His works are a profound critique of the modern world and a restoration of traditional metaphysical doctrine in the face of materialism and profane science.',
     portraitBg: 'from-emerald-900 via-teal-900 to-aegean',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/320px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    theme: 'egyptian',
     quoteCount: 8,
     bookCount: 7,
     quotes: [

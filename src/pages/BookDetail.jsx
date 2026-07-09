@@ -33,9 +33,19 @@ export default function BookDetail() {
       </Link>
 
       <div className="marble-bg border border-gold/30 rounded-lg overflow-hidden gold-glow">
-        <div className={`h-32 bg-gradient-to-br ${author?.portraitBg || 'from-aegean to-aegean'} flex items-center justify-center`}>
-          <BookOpen className="w-10 h-10 text-gold/40" />
-        </div>
+        {book.coverUrl ? (
+          <div className="h-48 sm:h-56 bg-gradient-to-br from-aegean/10 to-aegean/30 flex items-center justify-center overflow-hidden">
+            <img
+              src={book.coverUrl}
+              alt={book.title}
+              className="w-full h-full object-contain object-bottom opacity-90"
+            />
+          </div>
+        ) : (
+          <div className={`h-32 bg-gradient-to-br ${author?.portraitBg || 'from-aegean to-aegean'} flex items-center justify-center`}>
+            <BookOpen className="w-10 h-10 text-gold/40" />
+          </div>
+        )}
 
         <div className="p-6 lg:p-8">
           <div className="flex flex-wrap items-start justify-between gap-3 mb-4">

@@ -7,7 +7,8 @@ export const books = [
     description: 'The Republic is Plato\'s masterwork, a sweeping dialogue on justice, the ideal city, and the nature of reality. Through the voice of Socrates, Plato builds the kallipolis — a city ruled by philosopher-kings — and unveils the Allegory of the Cave, his most famous image of the soul\'s ascent from ignorance to the vision of the Form of the Good. The work examines the tripartite soul, the degeneration of political regimes, and the eternal tension between the philosophical and the political life.',
     complexity: 'introductory',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-republic.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1497/1497-h/1497-h.htm',
     pages: 368
   },
   {
@@ -18,7 +19,8 @@ export const books = [
     description: 'The Phaedo recounts the final hours of Socrates before his execution, as he demonstrates the immortality of the soul through four interlocking arguments — from opposites, from recollection, from affinity, and from the nature of life itself. It is Plato\'s most sustained meditation on death, the separation of soul from body, and the philosopher\'s vocation as a preparation for dying. The dialogue culminates in the myth of the true earth and the destiny of souls.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-phaedo.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1658/1658-h/1658-h.htm',
     pages: 112
   },
   {
@@ -29,7 +31,8 @@ export const books = [
     description: 'The Symposium is a banquet of speeches on love (Eros), where each guest — Phaedrus, Pausanias, Eryximachus, Aristophanes, Agathon, and finally Socrates — offers a different vision of this most enigmatic of forces. Socrates recounts the teachings of Diotima, who reveals love as the ladder of ascent from physical beauty to the eternal Form of Beauty itself. The dialogue is a profound exploration of desire, procreation, and the philosophical life.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-symposium.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1600/1600-h/1600-h.htm',
     pages: 96
   },
   {
@@ -40,7 +43,8 @@ export const books = [
     description: 'The Timaeus is Plato\'s cosmology, a mythic account of the creation of the universe by the Demiurge — a divine craftsman who imposes order upon the pre-existing receptacle (chora) by contemplating the eternal Forms. It introduces the World Soul, the elements, and the structure of the human body and soul. The work profoundly influenced Neoplatonism, Christian theology, and Islamic philosophy, serving as the foundational text of Western cosmology.',
     complexity: 'advanced',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-timaeus.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1572/1572-h/1572-h.htm',
     pages: 144
   },
   {
@@ -51,7 +55,8 @@ export const books = [
     description: 'The Parmenides is Plato\'s most demanding and enigmatic dialogue. It presents a young Socrates defending the theory of Forms against the criticism of the Eleatic philosopher Parmenides, followed by an extraordinary dialectical exercise in which Parmenides demonstrates the consequences of affirming or denying the One. The work has been read as a self-criticism of the theory of Forms, a Neoplatonic theological treatise, and a pure logical exercise in the philosophy of unity and multiplicity.',
     complexity: 'esoteric',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-parmenides.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1689/1689-h/1689-h.htm',
     pages: 80
   },
   {
@@ -62,7 +67,8 @@ export const books = [
     description: 'The Phaedrus is a lyrical dialogue on love, rhetoric, and the soul. In a pastoral setting outside Athens, Socrates and Phaedrus discuss the nature of divine madness — prophetic, purificatory, poetic, and erotic — and the famous image of the soul as a charioteer driving two horses. The dialogue moves from the critique of written texts to the superiority of living discourse, and ends with a prayer that has echoed through the ages.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-phaedrus.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1316/1316-h/1316-h.htm',
     pages: 104
   },
   {
@@ -73,7 +79,8 @@ export const books = [
     description: 'The Theaetetus examines the question "What is knowledge?" with surgical precision. Socrates interrogates three definitions — knowledge as perception, as true judgment, and as true judgment with an account (logos). Though no final definition is reached, the dialogue establishes the problems that would define epistemology for two millennia. It includes the famous digression on the contrast between the philosophical and the rhetorical life.',
     complexity: 'advanced',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/plato-theaetetus.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg/480px-Marble_bust_of_the_Greek_philosopher_Plato%2C_Roman_copy_%281st_century_CE%29_of_an_original_%28350-340_BCE%29._Altes_Museum%2C_Berlin.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1726/1726-h/1726-h.htm',
     pages: 128
   },
   {
@@ -84,7 +91,8 @@ export const books = [
     description: 'The Nicomachean Ethics is Aristotle\'s most mature ethical work, centered on the question of how to live well. He argues that the highest good (eudaimonia) consists in activity of the soul in accordance with virtue, and develops his famous doctrine of the mean — moral virtue as a midpoint between excess and deficiency. The work culminates in the claim that the contemplative life, the life of intellectual contemplation, is the happiest and most divine.',
     complexity: 'introductory',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-nicomachean-ethics.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/8438/8438-h/8438-h.htm',
     pages: 304
   },
   {
@@ -95,7 +103,8 @@ export const books = [
     description: 'The Categories is Aristotle\'s fundamental work on logic and ontology. It presents the ten categories of being — substance, quantity, quality, relation, place, time, position, state, action, and affection — with substance as the primary mode of being. This short treatise laid the foundation for Western logic and metaphysics, shaping the philosophical vocabulary of every subsequent tradition from Neoplatonism to Scholasticism.',
     complexity: 'introductory',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-categories.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/2412/2412-h/2412-h.htm',
     pages: 48
   },
   {
@@ -106,7 +115,8 @@ export const books = [
     description: 'The Poetics is Aristotle\'s profound analysis of dramatic poetry, focusing on tragedy and epic. He defines tragedy as the imitation of an action that arouses pity and fear, effecting a catharsis of these emotions. The work introduces the six elements of tragedy — plot, character, thought, diction, spectacle, and song — and argues that plot is the soul of tragedy. It remains the most influential work on literary theory ever written.',
     complexity: 'introductory',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-poetics.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/1974/1974-h/1974-h.htm',
     pages: 64
   },
   {
@@ -117,7 +127,8 @@ export const books = [
     description: 'The Physics is Aristotle\'s treatise on nature, change, and causation. He analyzes the principles of natural beings — matter, form, privation — and develops his doctrine of the four causes: material, formal, efficient, and final. The work examines motion, time, place, the infinite, and the unmoved mover. It established the framework for natural philosophy that dominated both the Islamic and Christian worlds until the Scientific Revolution.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-physics.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/2613/2613-h/2613-h.htm',
     pages: 240
   },
   {
@@ -128,7 +139,8 @@ export const books = [
     description: 'De Anima (On the Soul) is Aristotle\'s foundational work in psychology and philosophy of mind. He defines the soul as the form of a natural body having life potentially, and distinguishes three faculties — the nutritive (plants), the sensitive (animals), and the rational (humans). The work explores sensation, imagination, intellect, and the active intellect (nous poiētikos), a concept that would become central to Islamic and Christian philosophical theology.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-de-anima.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/2611/2611-h/2611-h.htm',
     pages: 160
   },
   {
@@ -139,7 +151,8 @@ export const books = [
     description: 'The Politics is Aristotle\'s investigation of the polis, the political community. He argues that man is by nature a political animal and that the city exists for the sake of the good life. The work examines different constitutions — kingship, aristocracy, and polity, and their degenerate forms — and concludes with the ideal state where citizens rule and are ruled in turn. It remains a touchstone for political philosophy.',
     complexity: 'intermediate',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-politics.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/6762/6762-h/6762-h.htm',
     pages: 288
   },
   {
@@ -150,7 +163,8 @@ export const books = [
     description: 'The Metaphysics is Aristotle\'s most profound and difficult work, the inquiry into being qua being — the study of what it means for anything to exist. He examines substance (ousia), form and matter, potentiality and actuality, and the hierarchy of being culminating in the unmoved mover, a substance that is pure actuality thinking itself. The work defines the very project of metaphysics and remains the cornerstone of ontological thought.',
     complexity: 'advanced',
     era: 'ancient',
-    pdfUrl: 'https://example.com/pdfs/aristotle-metaphysics.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/480px-Aristotle_Altemps_Inv8575.jpg',
+    pdfUrl: 'https://www.gutenberg.org/files/2612/2612-h/2612-h.htm',
     pages: 400
   },
   {
@@ -161,7 +175,8 @@ export const books = [
     description: 'The Crisis of the Modern World is Guénon\'s most accessible work, a piercing diagnosis of the spiritual pathology of modernity. He argues that the modern West has undergone a complete inversion of the traditional hierarchy — placing the profane above the sacred, quantity above quality, and the individual above the cosmos. The work calls for a restoration of intellectual intuition and the primordial tradition as the only remedy for the dissolution of civilization.',
     complexity: 'introductory',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-crisis-modern-world.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/crisisofmodernwo0000rene',
     pages: 160
   },
   {
@@ -172,7 +187,8 @@ export const books = [
     description: 'This work establishes the methodological foundation of Guénon\'s entire oeuvre. It distinguishes sharply between metaphysics and religion, between tradition and civilization, and between exoteric and esoteric knowledge. Through an exposition of Vedantic metaphysics, Guénon demonstrates the nature of universal principles and the hierarchy of knowledge that ascends from sensory experience to pure intellectual intuition.',
     complexity: 'intermediate',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-hindu-doctrines.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/introductiontost0000rene',
     pages: 288
   },
   {
@@ -183,7 +199,8 @@ export const books = [
     description: 'A rigorous metaphysical analysis of the human being through the lens of Advaita Vedanta. Guénon examines the constitution of the human individual — the multiple states of the being, the relationship between Atman and Brahman, and the nature of liberation (moksha). The work demonstrates that true self-knowledge is inseparable from knowledge of the Absolute, and that realization is the discovery of identity with the Supreme Principle.',
     complexity: 'intermediate',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-man-becoming.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/manhisbecomingac0000rene',
     pages: 192
   },
   {
@@ -194,7 +211,8 @@ export const books = [
     description: 'A masterful study of the cross as a universal symbol of metaphysical realization. Guénon interprets the cross as the image of the complete being — the union of the vertical axis (the essence, the principle) with the horizontal axis (substance, manifestation). Drawing on Christian, Hindu, Taoist, and Islamic traditions, he unfolds the cross as a diagram of the hierarchy of states of being and the path to the Supreme Identity.',
     complexity: 'advanced',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-symbolism-cross.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/symbolismofcross0000rene',
     pages: 160
   },
   {
@@ -205,7 +223,8 @@ export const books = [
     description: 'Guénon\'s most prophetic work, a detailed exposition of the dissolution of the modern world through the lens of the Hindu doctrine of the yugas (ages). He demonstrates how the qualitative dimension of reality has been progressively replaced by the quantitative, culminating in a civilization of pure materialism. The "signs of the times" — from homogenization to the loss of symbols — are interpreted as indications of the end of the Kali Yuga.',
     complexity: 'advanced',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-reign-quantity.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/reignofquantitys0000rene',
     pages: 320
   },
   {
@@ -216,7 +235,8 @@ export const books = [
     description: 'The Great Triad explores the ternary symbolism of Heaven, Earth, and Man that appears across the world\'s traditions — from the Taoist Three Pure Ones to the Christian Trinity to the Hindu Trimurti. Guénon demonstrates that the Triad represents not a static division but a dynamic process of cosmic manifestation, and that Man, as the mediator between Heaven and Earth, occupies the central and crucial position in the universal order.',
     complexity: 'esoteric',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-great-triad.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/greattriad0000rene',
     pages: 208
   },
   {
@@ -227,7 +247,8 @@ export const books = [
     description: 'This is Guénon\'s most metaphysically dense work, a rigorous exposition of the hierarchy of reality. He argues that the individual human being is only one state among an infinite multiplicity of states of being, arranged according to degrees of reality. The work culminates in the doctrine of the Supreme Identity — the realization that transcends all states and recognizes the unity of Atman and Brahman, the Self and the Absolute.',
     complexity: 'esoteric',
     era: 'perennialist',
-    pdfUrl: 'https://example.com/pdfs/guenon-multiple-states.pdf',
+    coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Rene-guenon-1925_%28square_cropped%29.jpg/480px-Rene-guenon-1925_%28square_cropped%29.jpg',
+    pdfUrl: 'https://archive.org/details/multiplestatesof0000rene',
     pages: 256
   }
 ]

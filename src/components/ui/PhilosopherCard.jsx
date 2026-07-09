@@ -8,14 +8,22 @@ export default function PhilosopherCard({ philosopher }) {
       className="block group"
     >
       <div className="marble-bg border border-gold/30 rounded-lg overflow-hidden gold-glow transition-all duration-300 group-hover:border-gold/70">
-        <div className={`h-32 bg-gradient-to-br ${philosopher.portraitBg} flex items-center justify-center relative`}>
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto rounded-full bg-ivory/10 border-2 border-gold/30 flex items-center justify-center">
-              <span className="font-heading text-gold text-xl">
-                {philosopher.name.charAt(0)}
-              </span>
+        <div className={`h-56 bg-gradient-to-br ${philosopher.portraitBg} flex items-end justify-center relative overflow-hidden`}>
+          {philosopher.imageUrl ? (
+            <img
+              src={philosopher.imageUrl}
+              alt={philosopher.name}
+              className="w-full h-full object-contain object-bottom opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+            />
+          ) : (
+            <div className="text-center mb-4">
+              <div className="w-16 h-16 mx-auto rounded-full bg-ivory/10 border-2 border-gold/30 flex items-center justify-center">
+                <span className="font-heading text-gold text-xl">
+                  {philosopher.name.charAt(0)}
+                </span>
+              </div>
             </div>
-          </div>
+          )}
           <div className="absolute top-2 right-2">
             <span className="px-2 py-0.5 bg-ivory/20 text-gold text-[10px] uppercase tracking-wider rounded font-body border border-gold/20">
               {philosopher.era === 'ancient' ? 'Ancient' : 'Perennialist'}

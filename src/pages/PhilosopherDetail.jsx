@@ -30,24 +30,28 @@ export default function PhilosopherDetail() {
 
   return (
     <div>
-      <div className={`h-48 sm:h-64 bg-gradient-to-br ${philosopher.portraitBg} flex items-center justify-center relative`}>
-        <div className="text-center px-4">
-          <div className="w-20 h-20 mx-auto rounded-full bg-ivory/10 border-2 border-gold/40 flex items-center justify-center mb-4">
-            <span className="font-heading text-gold text-3xl">
-              {philosopher.name.charAt(0)}
-            </span>
-          </div>
-          <h1 className="font-heading text-gold text-2xl sm:text-3xl lg:text-4xl tracking-wide">
-            {philosopher.name}
-          </h1>
-          {philosopher.greekName && (
-            <p className="text-gold/50 text-sm italic mt-1 font-body">
-              {philosopher.greekName}
+      <div className={`h-64 sm:h-80 bg-gradient-to-br ${philosopher.portraitBg} flex items-end justify-center relative overflow-hidden`}>
+        {philosopher.imageUrl ? (
+          <img
+            src={philosopher.imageUrl}
+            alt={philosopher.name}
+            className="w-full h-full object-contain object-bottom opacity-85"
+          />
+        ) : null}
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-aegean/90 via-aegean/60 to-transparent pt-16 pb-4 sm:pb-6">
+          <div className="text-center px-4">
+            <h1 className="font-heading text-gold text-2xl sm:text-3xl lg:text-4xl tracking-wide">
+              {philosopher.name}
+            </h1>
+            {philosopher.greekName && (
+              <p className="text-gold/50 text-sm italic mt-1 font-body">
+                {philosopher.greekName}
+              </p>
+            )}
+            <p className="text-ivory/60 text-xs mt-2 font-body tracking-wider uppercase">
+              {philosopher.lifespan} • {philosopher.era === 'ancient' ? 'Ancient Greece' : 'Perennialist'}
             </p>
-          )}
-          <p className="text-ivory/60 text-xs mt-2 font-body tracking-wider uppercase">
-            {philosopher.lifespan} • {philosopher.era === 'ancient' ? 'Ancient Greece' : 'Perennialist'}
-          </p>
+          </div>
         </div>
       </div>
 

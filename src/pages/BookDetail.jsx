@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Download, BookOpen, User } from 'lucide-react'
+import { ArrowLeft, Download, BookOpen, User, BookMarked } from 'lucide-react'
 import { getBookBySlug } from '../data/books'
 import { getPhilosopherBySlug } from '../data/philosophers'
 import ComplexityBadge from '../components/ui/ComplexityBadge'
@@ -93,7 +93,14 @@ export default function BookDetail() {
             </p>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-gold/20">
+          <div className="mt-8 pt-6 border-t border-gold/20 flex flex-wrap gap-3">
+            <Link
+              to={`/book/${book.slug}/read`}
+              className="inline-flex items-center gap-2 bg-aegean text-ivory font-heading text-sm uppercase tracking-wider px-6 py-3 rounded hover:bg-aegean/90 transition-colors"
+            >
+              <BookMarked className="w-4 h-4" />
+              Read Online
+            </Link>
             <a
               href={book.pdfUrl}
               target="_blank"

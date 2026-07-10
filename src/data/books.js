@@ -9,6 +9,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1497/1497-h/1497-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1497/1497-h/1497-h.htm',
     pages: 368
   },
   {
@@ -21,6 +22,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1658/1658-h/1658-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1658/1658-h/1658-h.htm',
     pages: 112
   },
   {
@@ -33,6 +35,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1600/1600-h/1600-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1600/1600-h/1600-h.htm',
     pages: 96
   },
   {
@@ -45,6 +48,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1572/1572-h/1572-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1572/1572-h/1572-h.htm',
     pages: 144
   },
   {
@@ -57,6 +61,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1689/1689-h/1689-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1689/1689-h/1689-h.htm',
     pages: 80
   },
   {
@@ -69,6 +74,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1316/1316-h/1316-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1316/1316-h/1316-h.htm',
     pages: 104
   },
   {
@@ -81,6 +87,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg/480px-Heruclaneum_Papyrus_1521_f002r%2C_British_Library.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1726/1726-h/1726-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1726/1726-h/1726-h.htm',
     pages: 128
   },
   {
@@ -93,6 +100,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/8438/8438-h/8438-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/8438/8438-h/8438-h.htm',
     pages: 304
   },
   {
@@ -105,6 +113,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/2412/2412-h/2412-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/2412/2412-h/2412-h.htm',
     pages: 48
   },
   {
@@ -117,6 +126,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/1974/1974-h/1974-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/1974/1974-h/1974-h.htm',
     pages: 64
   },
   {
@@ -129,6 +139,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/2613/2613-h/2613-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/2613/2613-h/2613-h.htm',
     pages: 240
   },
   {
@@ -141,6 +152,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/2611/2611-h/2611-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/2611/2611-h/2611-h.htm',
     pages: 160
   },
   {
@@ -153,6 +165,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/6762/6762-h/6762-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/6762/6762-h/6762-h.htm',
     pages: 288
   },
   {
@@ -165,6 +178,7 @@ export const books = [
     era: 'ancient',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Theaetetus_Commentary.jpg/480px-Theaetetus_Commentary.jpg',
     pdfUrl: 'https://www.gutenberg.org/files/2612/2612-h/2612-h.htm',
+    readUrl: 'https://www.gutenberg.org/files/2612/2612-h/2612-h.htm',
     pages: 400
   },
   {
@@ -177,6 +191,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/crisisofmodernwo0000rene',
+    readUrl: 'https://archive.org/details/crisisofmodernwo0000rene',
     pages: 160
   },
   {
@@ -189,6 +204,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/introductiontost0000rene',
+    readUrl: 'https://archive.org/details/introductiontost0000rene',
     pages: 288
   },
   {
@@ -201,6 +217,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/manhisbecomingac0000rene',
+    readUrl: 'https://archive.org/details/manhisbecomingac0000rene',
     pages: 192
   },
   {
@@ -213,6 +230,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/symbolismofcross0000rene',
+    readUrl: 'https://archive.org/details/symbolismofcross0000rene',
     pages: 160
   },
   {
@@ -225,6 +243,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/reignofquantitys0000rene',
+    readUrl: 'https://archive.org/details/reignofquantitys0000rene',
     pages: 320
   },
   {
@@ -237,6 +256,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/greattriad0000rene',
+    readUrl: 'https://archive.org/details/greattriad0000rene',
     pages: 208
   },
   {
@@ -249,6 +269,7 @@ export const books = [
     era: 'perennialist',
     coverUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Egypt.Papyrus.01.jpg/480px-Egypt.Papyrus.01.jpg',
     pdfUrl: 'https://archive.org/details/multiplestatesof0000rene',
+    readUrl: 'https://archive.org/details/multiplestatesof0000rene',
     pages: 256
   }
 ]

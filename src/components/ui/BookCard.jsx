@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Download, BookOpen } from 'lucide-react'
+import { Download, BookOpen, BookMarked } from 'lucide-react'
 import ComplexityBadge from './ComplexityBadge'
 import { getPhilosopherBySlug } from '../../data/philosophers'
 
@@ -50,6 +50,13 @@ export default function BookCard({ book }) {
             >
               <BookOpen className="w-3.5 h-3.5" />
               Details
+            </Link>
+            <Link
+              to={`/book/${book.slug}/read`}
+              className="flex items-center gap-1.5 text-xs text-aegean hover:text-gold transition-colors font-body"
+            >
+              <BookMarked className="w-3.5 h-3.5" />
+              Read
             </Link>
             <a
               href={book.pdfUrl}
